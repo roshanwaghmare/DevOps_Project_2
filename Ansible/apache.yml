@@ -19,7 +19,10 @@
           - "/etc/ansible/index.html"
           - "/etc/ansible/error.html"
           - "/etc/ansible/profile.jpg"
-        dest: "/var/www/html/index.html"
+        dest: 
+          - "/var/www/html/index.html"
+          - "/var/www/html/error.html"
+          - "/var/www/html/profile.jpg"
         force: yes
   - name: "Start httpd services"
     service:
