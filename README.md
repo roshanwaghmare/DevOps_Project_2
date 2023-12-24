@@ -1,4 +1,16 @@
-# EURAN-PROJECT-1
+
+## Authors
+
+- [@roshanwaghmare](https://github.com/roshanwaghmare)
+
+
+# | DevOps Project | GitHub+Jenkins+Terraform+Ansible+EC2
+
+In this project we have created a pipeline which will create one ec2 instance in AWS cloud and after creating that ec2 instance we will install any kind of application like Apache server or any other as per requirement 
+
+First of all I will create Pipeline with the help of Jenkins so our pipeline will fetch the code from the GitHub and fetch it to the server and then  Jenkins  will create one ec2 instance and after creating that ec2 instance will install the application like Apache server and the terraform on the ec2. 
+
+
 
 
 ## Steps
