@@ -80,7 +80,7 @@ insall ansible and terraform
 
 now now create yaml file on /opt/inventory/
 
----
+```bash
   plugin: aws_ec2
 
 
@@ -89,7 +89,7 @@ now now create yaml file on /opt/inventory/
   filters:
 
     tag:Environment: dev
-...
+```
 
  ansible-inventory -i /opt/ansible/inventory/aws_ec2.yml  --list
 
@@ -122,7 +122,7 @@ successful
 
 now add 
 
----
+```bash
 #!/bin/bash
 set -xe
 
@@ -141,6 +141,7 @@ else
 	cd ../Ansible
 	ansible-playbook -i /opt/ansible/inventory/aws_ec2.yaml apache.yaml 
 fi
+```
 
  
 craete and add admin role to main jenkins server
