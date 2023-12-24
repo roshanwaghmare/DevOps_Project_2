@@ -4,7 +4,7 @@ In this project we have created a pipeline which will create one ec2 instance in
 
 First of all I will create Pipeline with the help of Jenkins so our pipeline will fetch the code from the GitHub and fetch it to the server and then  Jenkins  will create one ec2 instance and after creating that ec2 instance will install the application like Apache server and the terraform on the ec2. 
 
-
+![Screenshot 2023-12-24 120305](https://github.com/roshanwaghmare/DevOps_Project_2/assets/142305817/c5e4b2fc-387b-4bfd-9814-87537b846bf2)
 
 
 ## Steps
@@ -157,6 +157,7 @@ https://www.youtube.com/watch?v=Wgij-P2d9xI
 ## Authors
 
 - [@roshanwaghmare](https://github.com/roshanwaghmare)
+
 
 
 
