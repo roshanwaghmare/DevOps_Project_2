@@ -15,11 +15,8 @@
         state: present
   - name: "copy code from GitHub"
     copy:
-        src: 
-          list: 
-            - "/etc/ansible/index.html"
-            - "/etc/ansible/error.html"
-            - "/etc/ansible/profile.jpg"
+        src:  
+          - "/etc/ansible/index.html,error.html,profile.jpg"
         dest: "/var/www/html/"
         force: yes
   - name: "Start httpd services"
