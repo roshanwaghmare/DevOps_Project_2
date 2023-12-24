@@ -1,9 +1,3 @@
-
-## Authors
-
-- [@roshanwaghmare](https://github.com/roshanwaghmare)
-
-
 # | DevOps Project | GitHub+Jenkins+Terraform+Ansible+EC2
 
 In this project we have created a pipeline which will create one ec2 instance in AWS cloud and after creating that ec2 instance we will install any kind of application like Apache server or any other as per requirement 
@@ -157,6 +151,11 @@ you can refer video
 
 https://www.youtube.com/watch?v=Wgij-P2d9xI
 
+
+
+## Authors
+
+- [@roshanwaghmare](https://github.com/roshanwaghmare)
 
 
 
