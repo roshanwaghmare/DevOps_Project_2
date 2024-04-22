@@ -71,7 +71,7 @@ name SERVER_NAME
 
 Delete Workspace before build starts
 
-goto dashboard manage jenkins plugins add rebuild restart
+goto dashboard manage jenkins plugins add rebuilder  --restart
 
 --------------------------------------------------------
 now go back to terminal 
