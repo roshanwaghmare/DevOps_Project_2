@@ -22,7 +22,8 @@ click on Git paste the URL of your project
 
 credentails not required because we are using public repo
 
-now branch will be */Main
+now branch will be */Main or any branch 
+Delete workspace before build starts
 
 before this open terminal and install git 
 
