@@ -53,6 +53,8 @@ terraform plan
 terraform $TERRAFORM_ACTION -auto-approve
 ```
 
+after that install terraform and anisble inyour jenkins master CLI
+
 then select
 This project is parameterized
 
