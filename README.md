@@ -22,7 +22,8 @@ click on Git paste the URL of your project
 
 credentails not required because we are using public repo
 
-now branch will be */Main
+now branch will be */Main or any branch 
+Delete workspace before build starts
 
 before this open terminal and install git 
 
@@ -52,6 +53,8 @@ terraform plan
 terraform $TERRAFORM_ACTION -auto-approve
 ```
 
+after that install terraform and anisble inyour jenkins master CLI
+
 then select
 This project is parameterized
 
@@ -70,6 +73,14 @@ name SERVER_NAME
 * Build Environment 
 
 Delete Workspace before build starts
+
+## create IAM role with admin access and Attach to our jenkins Master 
+
+## also create s3 bucket with same name mentioned on backend file
+
+
+
+
 
 goto dashboard manage jenkins plugins add rebuilder  --restart
 
@@ -144,9 +155,7 @@ fi
 ```
 
  
-craete and add admin role to main jenkins server
 
-craete bucket in s3 with same name you mentioned on terraform file
 
 you can refer video 
 
