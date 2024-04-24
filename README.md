@@ -74,6 +74,14 @@ name SERVER_NAME
 
 Delete Workspace before build starts
 
+## create IAM role with admin access and Attach to our jenkins Master 
+
+## also create s3 bucket with same name mentioned on backend file
+
+
+
+
+
 goto dashboard manage jenkins plugins add rebuilder  --restart
 
 --------------------------------------------------------
@@ -147,9 +155,7 @@ fi
 ```
 
  
-craete and add admin role to main jenkins server
 
-craete bucket in s3 with same name you mentioned on terraform file
 
 you can refer video 
 
