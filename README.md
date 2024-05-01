@@ -7,9 +7,48 @@ First of all I will create Pipeline with the help of Jenkins so our pipeline wil
 ![Screenshot 2023-12-24 120305](https://github.com/roshanwaghmare/DevOps_Project_2/assets/142305817/c5e4b2fc-387b-4bfd-9814-87537b846bf2)
 
 
+
 ## Steps
 
  we will create ec2 and insatll jenkins which act as Master node 
+
+ ### Connect to instance and execute following commands. 
+```
+# Become a root
+sudo su -
+
+# Jenkins repo is added to yum.repos.d
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+# Import key from Jenkins
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+# Install Java-11
+amazon-linux-extras install java-openjdk11 -y
+
+# Install Jenkins
+yum install jenkins -y
+```
+
+### Start Jenkins.
+```
+# Become a root, no need to execute if you are alread root.
+sudo su -
+
+# You can enable the Jenkins service to start at boot with the command:
+systemctl enable jenkins
+
+# You can start the Jenkins service with the command:
+systemctl start jenkins
+
+# You can check the status of the Jenkins service using the command:
+systemctl status jenkins
+```
+
+### Open Web-Browser and access jenkins on port 8080.
+```
+http://<Public-IPv4-address>:8080/
+```
 
 then craeted all the file using VS code and push that code to github
 
